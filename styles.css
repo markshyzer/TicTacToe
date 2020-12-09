@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 600%;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+}
+
+#board {
+    /* max-width: 350; */
+    margin: 0 auto;
+}
+
+.space {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: lightblue;
+    color: white;
+    min-width: 150px;
+    height: 150px;
+    font-size: 75px;
+    line-height: 150px;
+    text-align: center;
+    border: thick solid white;
+}
+
+#panel {
+    display: flex;
+    width: 450px;
+    height: 100px;
+}
+
+#player, #reset {
+    width: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50%;
+    border: thick solid white;
+    border-radius: 30px;
+    background-color: lightgreen;
+    margin: 10px;
+}
